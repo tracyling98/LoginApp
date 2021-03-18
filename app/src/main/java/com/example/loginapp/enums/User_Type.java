@@ -1,6 +1,6 @@
 package com.example.loginapp.enums;
 
-public enum UserType {
+public enum User_Type {
     /* User Privilege */
     Student,
     Teacher,

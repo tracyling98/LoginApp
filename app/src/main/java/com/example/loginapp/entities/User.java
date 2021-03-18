@@ -1,14 +1,14 @@
 package com.example.loginapp.entities;
 
 import com.example.loginapp.enums.Nationality;
-import com.example.loginapp.enums.UserType;
+import com.example.loginapp.enums.User_Type;
 import com.example.loginapp.enums.Gender;
 
 public class User {
 
     // User Properties
     protected String username;
-    protected UserType userType;
+    protected User_Type userType;
     protected Gender userGender;
     protected Nationality nationality;
 
@@ -16,7 +16,7 @@ public class User {
     public User() {}
 
     // Other Constructors (Overloading)
-    public User(String username, UserType userType, Gender userGender){
+    public User(String username, User_Type userType, Gender userGender){
         this.username = username;
         this.userType = userType;
         this.userGender = userGender;
@@ -27,7 +27,7 @@ public class User {
         return this.username;
     }
 
-    public UserType getUserType(){
+    public User_Type getUserType(){
         return this.userType;
     }
 
@@ -44,7 +44,7 @@ public class User {
         this.username = username;
     }
 
-    public void setUserType(UserType userType){
+    public void setUserType(User_Type userType){
         this.userType = userType;
     }
 
