@@ -1,6 +1,6 @@
 package com.example.loginapp.enums;
 
-public enum Nationality {
+public enum Country {
     SG("Singapore"),
     MY("Malaysia"),
     AU("Australia"),
@@ -18,14 +18,14 @@ public enum Nationality {
     PH("Philippines"),
     RU("Russia");
 
-    private final String nationality;
+    private final String country;
 
-    Nationality(String nationality){
-        this.nationality = nationality;
+    Country(String country){
+        this.country = country;
     }
 
-    public String getNationality(){
-        return nationality;
+    public String getCountry(){
+        return country;
     }
 
 }

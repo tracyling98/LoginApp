@@ -5,11 +5,8 @@ import androidx.annotation.NonNull;
 import com.example.loginapp.enums.Course;
 import com.example.loginapp.enums.Gender;
 import com.example.loginapp.enums.Member_Type;
-import com.example.loginapp.enums.Nationality;
-import com.example.loginapp.enums.Study_Year;
+import com.example.loginapp.enums.Country;
 import com.example.loginapp.enums.User_Type;
-
-import java.lang.reflect.Member;
 
 public class Student extends User{
 
@@ -24,7 +21,7 @@ public class Student extends User{
     public Student(){}
 
     // Constructor Overloading
-    public Student(String username, String firstname, String lastname, User_Type user_type, Gender gender, Nationality nationality, Member_Type member_type, Course course, String enrol_date, CCA cca){
+    public Student(String username, String firstname, String lastname, User_Type user_type, Gender gender, Country nationality, Member_Type member_type, Course course, String enrol_date, CCA cca){
         super(username, firstname,lastname, user_type, gender, nationality, member_type); // Parent Constructor Call
         this.course = course;
         this.enrol_date = enrol_date;

@@ -4,7 +4,7 @@ import androidx.annotation.NonNull;
 
 import com.example.loginapp.enums.Gender;
 import com.example.loginapp.enums.Member_Type;
-import com.example.loginapp.enums.Nationality;
+import com.example.loginapp.enums.Country;
 import com.example.loginapp.enums.User_Type;
 
 public class Teacher extends User{
@@ -17,7 +17,7 @@ public class Teacher extends User{
 
     // Overloading Constructor
     public Teacher(String username, String firstname, String lastname, User_Type user_type, Gender gender,
-                   Nationality nationality, Member_Type member_type, String position, String join_date){
+                   Country nationality, Member_Type member_type, String position, String join_date){
 
         super(username, firstname, lastname, user_type, gender, nationality, member_type); // Parent Constructor Call
         this.position = position;

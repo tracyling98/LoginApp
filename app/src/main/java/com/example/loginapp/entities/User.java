@@ -3,7 +3,7 @@ package com.example.loginapp.entities;
 import androidx.annotation.NonNull;
 
 import com.example.loginapp.enums.Member_Type;
-import com.example.loginapp.enums.Nationality;
+import com.example.loginapp.enums.Country;
 import com.example.loginapp.enums.User_Type;
 import com.example.loginapp.enums.Gender;
 
@@ -15,7 +15,7 @@ public class User {
     protected String lastname;
     protected User_Type user_type;
     protected Gender gender;
-    protected Nationality nationality;
+    protected Country nationality;
     protected Member_Type member_type; // Full time or Part time
 
     // Default Constructor
@@ -23,7 +23,7 @@ public class User {
 
     // Other Constructors (Overloading)
     public User(String username, String firstname, String lastname, User_Type user_type, Gender userGender,
-                Nationality nationality, Member_Type member_type){
+                Country nationality, Member_Type member_type){
         this.username = username;
         this.firstname = firstname;
         this.lastname = lastname;
@@ -58,7 +58,7 @@ public class User {
         return gender;
     }
 
-    public Nationality getNationality(){
+    public Country getNationality(){
         return nationality;
     }
 
@@ -87,7 +87,7 @@ public class User {
         this.gender = gender;
     }
 
-    public void setNationality(Nationality nationality){
+    public void setNationality(Country nationality){
         this.nationality = nationality;
     }
 
