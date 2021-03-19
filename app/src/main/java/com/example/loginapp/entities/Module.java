@@ -18,6 +18,10 @@ public class Module {
         this.module_description = module_description;
     }
 
+    public Module(Module module){
+        this(module.module_code, module.module_name, module.module_description);
+    }
+
     // Getters and Setters
     public String getModule_code(){
         return module_code;
