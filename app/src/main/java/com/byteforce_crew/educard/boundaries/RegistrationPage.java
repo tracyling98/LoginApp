@@ -1,0 +1,16 @@
+package com.byteforce_crew.educard.boundaries;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+import com.byteforce_crew.educard.R;
+
+public class RegistrationPage extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_registration_page);
+    }
+}
