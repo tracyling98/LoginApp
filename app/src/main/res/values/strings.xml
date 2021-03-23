@@ -2,6 +2,7 @@
     <string name="app_name">EduCard</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
+    <string name="login_lbl">LOGIN</string>
     <string name="register_lbl">Register</string>
     <string name="home_lbl">Home</string>
 </resources>
