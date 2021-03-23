@@ -4,5 +4,6 @@ public enum User_Type {
     /* User Privilege */
     Student,
     Teacher,
-    Admin
+    Moderator, // For organisation
+    Administrator // For app staff
 }
