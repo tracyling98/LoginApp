@@ -1,8 +1,32 @@
 <resources>
+    <!-- Application Name -->
     <string name="app_name">EduCard</string>
+
+    <!-- Login Page -->
     <string name="username">Username</string>
     <string name="password">Password</string>
-    <string name="login_lbl">LOGIN</string>
+    <string name="login_lbl">Login</string>
+
+    <!-- Registration Page -->
     <string name="register_lbl">Register</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="org_name">Organisation Name</string>
+    <string name="re_password">Re-type Password</string>
+
+    <!-- Home Page -->
     <string name="home_lbl">Home</string>
+
+
+    <!-- Add Student/ Teacher -->
+    <string name="nationality">Nationality</string>
+    <string name="gender">Gender</string>
+
+    <!-- Add Module -->
+    <string name="module_name">Module Name</string>
+    <string name="module_code">Module Code</string>
+    <string name="module_description">Module Description</string>
+
+    <!-- Class -->
+
 </resources>
