@@ -4,15 +4,15 @@ Functions:
 - Change Profile Details.
 
 Users:
-- Administrator
-- Moderator
+- Administrator (App Staff Members)
+- Moderator (Client: Organisation Staff)
 - Teacher
 - Student
 
 
 V1.0:
  ~ Login (Teacher, Student)
- ~ View Profile Card
+ ~ Register (Always Moderator)
 
 V1.1:
- ~ Register (Moderator)
+ ~ View Profile Card
